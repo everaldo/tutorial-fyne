@@ -4,7 +4,7 @@ Bem-vindo ao **Tutorial Completo Fyne.io** - o guia definitivo para desenvolver 
 
 ## O que é Fyne?
 
-O Fyne é uma framework moderna para desenvolvimento de interfaces gráficas (GUI) em Go que se destaca por sua simplicidade, performance e capacidade de compilação cross-platform. Desenvolvido especificamente para Go, o Fyne oferece uma API clean e intuitiva para criar aplicações desktop nativas.
+O Fyne é um framework moderno para desenvolvimento de interfaces gráficas (GUI) em Go que se destaca por sua simplicidade, performance e capacidade de compilação cross-platform. Desenvolvido especificamente para Go, o Fyne oferece uma API clean e intuitiva para criar aplicações desktop nativas.
 
 ## Principais Características
 
