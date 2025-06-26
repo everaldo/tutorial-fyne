@@ -1,19 +1,29 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+go:
+  label: Go
+  permalink: /go
+  description: Linguagem de programação Go
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+fyne:
+  label: Fyne.io
+  permalink: /fyne
+  description: Framework GUI para Go
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Tutoriais e guias
+
+ai:
+  label: IA
+  permalink: /ai
+  description: Inteligência Artificial
 
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
-  description: Docusaurus tag description
+  description: Gerador de sites de documentação
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+claude:
+  label: Claude
+  permalink: /claude
+  description: Assistente IA Claude
