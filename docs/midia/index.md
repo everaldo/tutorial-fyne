@@ -53,7 +53,7 @@ brew install gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plu
 #### Windows
 1. Baixar GStreamer do site oficial
 2. Instalar versão de desenvolvimento
-3. Usar MinGW versão <= 11 para compilação
+3. Usar MinGW versão 11 ou inferior para compilação
 
 ### Instalação do Fyne-Streamer
 ```bash
