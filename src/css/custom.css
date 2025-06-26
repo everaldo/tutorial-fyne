@@ -1,0 +1,105 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Cores do Fyne.io - azul/verde */
+  --ifm-color-primary: #00a8e8;
+  --ifm-color-primary-dark: #0096d1;
+  --ifm-color-primary-darker: #008ec6;
+  --ifm-color-primary-darkest: #0075a3;
+  --ifm-color-primary-light: #1ab2eb;
+  --ifm-color-primary-lighter: #26b6ec;
+  --ifm-color-primary-lightest: #4dc4f0;
+  
+  /* Melhor legibilidade do código */
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: #f6f8fa;
+  --ifm-code-border-radius: 6px;
+  --ifm-code-padding-horizontal: 0.4rem;
+  --ifm-code-padding-vertical: 0.2rem;
+  
+  /* Destaque de código */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 168, 232, 0.1);
+  
+  /* Fonte para código Go */
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4dc4f0;
+  --ifm-color-primary-dark: #33b8ee;
+  --ifm-color-primary-darker: #26b6ec;
+  --ifm-color-primary-darkest: #00a8e8;
+  --ifm-color-primary-light: #67d0f2;
+  --ifm-color-primary-lighter: #74d4f3;
+  --ifm-color-primary-lightest: #95e1f6;
+  
+  /* Código no tema escuro */
+  --ifm-code-background: #1e2124;
+  --docusaurus-highlighted-code-line-bg: rgba(77, 196, 240, 0.2);
+}
+
+/* Estilos customizados para o tutorial Fyne */
+.go-code {
+  border-left: 4px solid var(--ifm-color-primary);
+  background: var(--ifm-code-background);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: var(--ifm-code-border-radius);
+}
+
+/* Destaque para dicas */
+.tutorial-tip {
+  background: linear-gradient(135deg, rgba(0, 168, 232, 0.1), rgba(77, 196, 240, 0.1));
+  border: 1px solid var(--ifm-color-primary-lighter);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.tutorial-tip::before {
+  content: "💡";
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+/* Melhor espaçamento para código Go */
+.language-go {
+  background: var(--ifm-code-background) !important;
+}
+
+/* Cards de seção */
+.section-card {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de recursos */
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.feature-item {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.feature-item h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.5rem;
+}
